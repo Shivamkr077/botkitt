@@ -1,0 +1,30 @@
+{
+  "name": "botkit-cms",
+  "version": "1.0.0",
+  "description": "![Dialog Editor](https://raw.githubusercontent.com/howdyai/botkit-cms/master/docs/screenshots/dialog.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/howdyai/botkit-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howdyai/botkit-cms/issues"
+  },
+  "homepage": "https://github.com/howdyai/botkit-cms#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "dotenv": "^16.0.3",
+    "express-basic-auth": "^1.2.1",
+    "express-hbs": "^2.4.0",
+    "request": "^2.88.2"
+  }
+}
